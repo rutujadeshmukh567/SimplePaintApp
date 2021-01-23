@@ -1,0 +1,40 @@
+.defaultText {
+    user-select: none;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.btn-style{
+	position:absolute;
+	left:1355px;
+	
+}
+button {
+    user-select: none;
+    background-color: grey;
+    color: black;
+    size: 70px;
+    font-size: 20px;
+    border-color:solid black;
+	outline: none;
+	margin-left: -680px;
+	
+}
+
+button:hover {
+    background-color:lightgray;
+}
+
+button:active {
+    background-color: grey; 
+}
+
+canvas {
+    background-color: whitesmoke;
+    border: 5px solid #000000;
+    cursor: pointer;
+}
+
+canvas:hover {
+    background-color: #f0f0f0
+}
